@@ -177,6 +177,11 @@
     margin: 0;
   }
 
+  .nav-container {
+    width: 100%;
+    text-align: center;
+  }
+
   .main-content h1 {
     font-size: 2.8rem;
   }
@@ -213,6 +218,10 @@
 
   .bottom-content h1 {
     font-size: 2.5rem;
+  }
+
+  .contact-me {
+    text-align: center;
   }
 }
 
