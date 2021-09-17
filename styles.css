@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: #212329;
+  color: whitesmoke;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-self: center;
+  width: 80%;
+  margin: 35px auto 0;
+  height: 90vh;
+}
+
+.main-content {
+  justify-self: start;
+  margin-left: 30px;
+  color: white;
+}
+
+#main-img {
+  width: 100%;
+}
+
+.middle-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  width: 80%;
+  margin: 0 auto;
+  height: 90vh;
+}
+
+.middle-content {
+  margin-left: 30px;
+  margin-bottom: 0;
+}
+
+.bottom-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  width: 80%;
+  margin: 0 auto;
+  height: 90vh;
+}
+
+.bottom-content {
+  margin-left: 30px;
+}
+
+#bottom-img {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .main-container {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-self: center;
+    width: 90%;
+
+    margin: 0 auto;
+    height: 90vh;
+  }
+
+  .main-content {
+    justify-self: center;
+    color: white;
+    width: 80%;
+    margin: 0;
+  }
+
+  .main-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .main-content h3 {
+    font-size: 1.5rem;
+  }
+
+  .middle-container {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-self: center;
+    width: 90%;
+
+    margin: 0 auto;
+    height: 90vh;
+  }
+
+  .middle-content {
+    justify-self: center;
+    color: white;
+    width: 80%;
+    margin: 0;
+  }
+
+  .middle-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .middle-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .middle-image {
+    height: 200px;
+    margin-right: 30px;
+  }
+
+  .bottom-container {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-self: center;
+    width: 90%;
+
+    margin: 0 auto;
+    height: 90vh;
+  }
+
+  .bottom-content {
+    justify-self: center;
+    color: white;
+    width: 80%;
+    margin: 0;
+  }
+
+  .bottom-content h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main-content {
+    text-align: center;
+    color: white;
+    width: 80%;
+    margin: 0;
+  }
+
+  .main-content h1 {
+    font-size: 2.8rem;
+  }
+
+  .main-content h3 {
+    font-size: 2rem;
+  }
+
+  .middle-content {
+    text-align: center;
+    color: white;
+    width: 80%;
+    margin: 0;
+  }
+
+  .middle-content h1 {
+    font-size: 2.8rem;
+  }
+
+  .middle-content h2 {
+    font-size: 2rem;
+  }
+
+  .middle-image {
+    height: 200px;
+    margin-right: 30px;
+  }
+
+  .bottom-content {
+    text-align: center;
+    color: white;
+    width: 80%;
+    margin: 0;
+  }
+
+  .bottom-content h1 {
+    font-size: 2.5rem;
+  }
+}
